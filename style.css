@@ -208,21 +208,64 @@ body {
 
 
 .green-smoothie {
+    position: relative;
     width: 65%;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .green-smoothie-align {
     text-align: center;
+    position: relative;
 }
 
+.smoothie-button {
+    border: none;
+    color: rgb(247, 205, 151);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.green-smoothie-button {
+    background-color: rgb(247, 205, 151);
+    color: black; 
+    border: 2px solid black;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+.green-smoothie-button:hover {
+    background-color: rgb(32, 129, 40);
+    color: white;
+}
+
+
 .choc-smoothie {
-    margin-bottom: 30px;
     width: 65%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .choc-smoothie-align {
     text-align: center;
+}
+.choc-smoothie-button {
+    background-color: rgb(247, 205, 151);
+    color: black; 
+    border: 2px solid black;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+.choc-smoothie-button:hover {
+    background-color: rgb(92, 71, 33);
+    color: white;
 }
 
 
