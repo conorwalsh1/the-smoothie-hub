@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Shadows+Into+Light&display=swap');
  
 body {
-    background-color: rgb(252, 193, 117);
+    background-color: rgb(247, 205, 151);
 }
 
 /* Icon 1 */
@@ -186,6 +186,7 @@ body {
 
 .navbar-title:hover {
     color: black;
+    text-decoration: none;
 }
 
 .nav-links {
@@ -208,6 +209,7 @@ body {
 
 .green-smoothie {
     width: 65%;
+    margin-bottom: 30px;
 }
 
 .green-smoothie-align {
@@ -215,6 +217,7 @@ body {
 }
 
 .choc-smoothie {
+    margin-bottom: 30px;
     width: 65%;
 }
 
