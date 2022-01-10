@@ -8,3 +8,5 @@ https://www.goodhousekeeping.com/food-recipes/healthy/g4060/healthy-smoothie-rec
 
 https://www.codeblocq.com/2016/05/Blur-Image-on-Hover-with-CSS/ - Image Blur
 
+https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button3 - Hover effect for buttons
+
