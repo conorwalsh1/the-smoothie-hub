@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Shadows+Into+Light&display=swap');
  
 body {
-    background-color: rgb(255, 231, 253);
+    background-color: rgb(223, 223, 223);
 }
 
 /* Icon 1 */
@@ -203,6 +203,10 @@ body {
     color: black;
 }
 
+.nav-divider {
+    margin-top: -20px;
+}
+
 /* Home Page */
 
 
@@ -234,7 +238,7 @@ body {
 }
 
 .green-smoothie-button {
-    background-color: rgb(255, 231, 253);
+    background-color: rgb(223, 223, 223);
     color: black; 
     border: 2px solid black;
     font-family: 'Shadows Into Light', cursive;
@@ -258,7 +262,7 @@ body {
     text-align: center;
 }
 .choc-smoothie-button {
-    background-color: rgb(255, 231, 253);
+    background-color: rgb(223, 223, 223);
     color: black; 
     border: 2px solid black;
     font-family: 'Shadows Into Light', cursive;
@@ -270,5 +274,22 @@ body {
     color: white;
 }
 
+/* About Us */
 
+.about-us-img {
+    width: 100%;
+    margin-top: 75px;
+    margin-left: 25px;
+}
+
+.about-us-description {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 20px;
+    line-height: 65px;
+    margin-top: 40px;
+    margin-right: 25px;
+    font-weight: 600;
+    text-align: center;
+}
 
