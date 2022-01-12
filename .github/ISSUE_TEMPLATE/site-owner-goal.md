@@ -1,7 +1,7 @@
 ---
 name: Site Owner Goal
 about: Site Owner Template
-title: ''
+title: 'SITE OWNER GOAL:'
 labels: ''
 assignees: ''
 
