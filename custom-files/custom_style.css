@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Shadows+Into+Light&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Shadows+Into+Light&display=swap');
  
 body {
     background-color: rgb(223, 223, 223);
@@ -6,7 +6,7 @@ body {
 
 /* Icon 1 */
 
-.animated-icon1, .animated-icon2, .animated-icon3 {
+/* .animated-icon1, .animated-icon2, .animated-icon3 {
     width: 30px;
     height: 20px;
     position: relative;
@@ -87,7 +87,7 @@ body {
     
     /* Icon 3*/
     
-.animated-icon2 span:nth-child(1) {
+/* .animated-icon2 span:nth-child(1) {
     top: 0px;
     }
     
@@ -127,7 +127,7 @@ body {
     
     /* Icon 4 */
     
-.animated-icon3 span:nth-child(1) {
+/* .animated-icon3 span:nth-child(1) {
     top: 0px;
     -webkit-transform-origin: left center;
     -moz-transform-origin: left center;
@@ -172,9 +172,9 @@ body {
     transform: rotate(-45deg);
     top: 21px;
     left: 8px;
-    }
+    } */
 
-/* Navbar  */
+/* Navbar 
 
 .navbar-title {
     font-family: 'Shadows Into Light', cursive;
@@ -207,7 +207,7 @@ body {
     margin-top: -20px;
 }
 
-/* Home Page */
+Home Page
 
 
 
@@ -274,7 +274,7 @@ body {
     color: white;
 }
 
-/* About Us */
+About Us
 
 .about-us-img {
     width: 100%;
@@ -291,7 +291,7 @@ body {
     text-align: center;
 }
 
-/* Contact */
+Contact
 
 .form-controls {
     display: block;
@@ -331,4 +331,4 @@ body {
 
 
 
-/* Sign In and Register For Account */
+Sign In and Register For Account   */
