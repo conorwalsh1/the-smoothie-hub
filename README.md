@@ -10,3 +10,5 @@ https://www.codeblocq.com/2016/05/Blur-Image-on-Hover-with-CSS/ - Image Blur
 
 https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button3 - Hover effect for buttons
 
+https://joyfoodsunshine.com/wp-content/uploads/2019/07/green-smoothie-recipe-featured.jpg - default recipe image
+
