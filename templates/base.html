@@ -17,6 +17,7 @@
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+    <link rel="stylesheet" href="{% templates 'about.html' %}">
 
 </head>
 
@@ -46,7 +47,7 @@
                 <a class="nav-links dropdown" href="recipes.html">Recipes</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-links" href="about.html">About</a>
+                <a class="nav-links" href="{% url 'about' %}">About</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-links" href="contact.html">Contact Us</a>
@@ -77,7 +78,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="text-center text-white" style="background-color: rgb(223, 223, 223);">
+    <footer class="footer text-center text-white">
         <!-- Grid container -->
         <div class="container pt-4">
           <!-- Section: Social media -->

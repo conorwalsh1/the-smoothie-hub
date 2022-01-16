@@ -22,4 +22,5 @@ urlpatterns = [
     # path('home/', include('home.urls'), name='homee_urls'),
     path('', include('recipe.urls'), name='recipe_urls'),
     path('accounts/', include('allauth.urls')),
+    path('about/', include('about.urls'), name='about_urls')
 ]
