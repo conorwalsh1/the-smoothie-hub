@@ -29,7 +29,7 @@
         <a class="navbar-title" href="{% url 'home' %}">The Smoothie Hub</a>
     
         <!-- Collapse button -->
-        <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+        <button class=" nav-burger navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
         aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
         <div class="animated-icon1"><span></span><span></span><span></span></div>
         </button>
@@ -53,14 +53,14 @@
                 </li>
                 {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
+                        <a class="nav-links" href="{% url 'account_logout' %}">Logout</a>
                     </li>
                     {% else %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'account_signup' %}">Register</a>
+                        <a class="nav-links" href="{% url 'account_signup' %}">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{% url 'account_login' %}">Login</a>
+                        <a class="nav-links" href="{% url 'account_login' %}">Login</a>
                     </li>
                     {% endif %}
             </ul>
@@ -70,6 +70,8 @@
     <!-- Collapsible content -->
   
     </nav>
+
+    <hr class="nav-divider">
 
     <main class="flex-shrink-0 main-bg">
         {% block content %}

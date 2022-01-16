@@ -172,7 +172,7 @@ body {
     transform: rotate(-45deg);
     top: 21px;
     left: 8px;
-    } */
+    } 
 
 /* Navbar  */
 
@@ -182,7 +182,9 @@ body {
     color: black;
     font-size: 45px;
     text-align: center;
-} 
+    text-decoration: none;
+    margin-left: 20px;
+}
 
 .navbar-title:hover {
     color: black;
@@ -201,6 +203,10 @@ body {
 
 .nav-links:hover {
     color: black;
+}
+
+.nav-burger {
+    margin: 15px;
 }
 
 .nav-divider {
