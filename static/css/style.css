@@ -199,9 +199,11 @@ body {
     margin-right: 10px;
     display: flex;
     justify-content: space-evenly;
+    text-decoration: none;
 }
 
 .nav-links:hover {
+    text-decoration: underline;
     color: black;
 }
 

@@ -53,7 +53,6 @@ INSTALLED_APPS = [
     'recipe',
     'about',
     'contact',
-    'create_recipe',
 ]
 
 SITE_ID = 1
