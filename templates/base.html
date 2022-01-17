@@ -41,22 +41,25 @@
       <!-- Links -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                <a class="nav-links" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-links" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-links dropdown" href="recipes.html">Recipes</a>
+                  <a class="nav-links" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-links" href="{% url 'about' %}">About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-links" href="contact.html">Contact Us</a>
+                  <a class="nav-links" href="contact.html">Contact Us</a>
                 </li>
                 {% if user.is_authenticated %}
+                    <li class="nav-item">
+                      <a class="nav-links" href="recipe">Create A Recipe</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-links" href="{% url 'account_logout' %}">Logout</a>
                     </li>
                     {% else %}
+                    <li class="nav-item">
+                      <a class="nav-links" href="{% url 'account_login' %}">Create A Recipe</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-links" href="{% url 'account_login' %}">Login</a>
                     </li>
