@@ -11,12 +11,10 @@ class Post(models.Model):
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='recipe_posts')
     updated_on = models.DateTimeField(auto_now=True)
-    ingredients  = models.TextField()
-    method  = models.TextField()
     featured_image = CloudinaryField('image', default='placeholder')
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=STATUS, default=0)
-    votes = models.ManyToManyField(User, related_name='recipe_likes', blank=True)
+    likes = models.ManyToManyField(User, related_name='recipe_likes', blank=True)
 
     class Meta:
         ordering = ['-created_on']
