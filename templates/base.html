@@ -48,6 +48,9 @@
                 <li class="nav-item">
                   <a class="nav-links" href="{% url 'contact' %}">Contact Us</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-links" href="{% url 'recipes' %}">Recipes</a>
+                </li>
                 {% if user.is_authenticated %}
                     <li class="nav-item">
                       <a class="nav-links" href="#">Create A Recipe</a>
@@ -56,9 +59,6 @@
                         <a class="nav-links" href="{% url 'account_logout' %}">Logout</a>
                     </li>
                     {% else %}
-                    <li class="nav-item">
-                      <a class="nav-links" href="{% url 'recipes' %}">Recipes</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-links" href="{% url 'account_login' %}">Login</a>
                     </li>
