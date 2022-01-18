@@ -252,6 +252,7 @@ body {
     padding: 10px 30px;
     font-family: 'Shadows Into Light', cursive;
     font-size: 20px;
+    margin-top: 15px;
 }
 
 .green-button:hover {
@@ -339,4 +340,47 @@ body {
     position: relative;
     width: 100%;
     height: 5.5rem; 
-    }
+}
+
+/* Smoothie Card */
+
+.smoothie-card-title {
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+}
+
+.smoothie-link {
+    text-decoration: none;
+}
+
+.smoothie-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* Recipe Text */
+
+.smoothie-post-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.recipe-text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+/* Comments */
+
+.comment-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: 800;
+}
+
+
