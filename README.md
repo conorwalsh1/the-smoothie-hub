@@ -12,3 +12,7 @@ https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button3 - Hover effect
 
 https://joyfoodsunshine.com/wp-content/uploads/2019/07/green-smoothie-recipe-featured.jpg - default recipe image
 
+Issues
+
+corrupted data base, had to go into heroku and delete database
+
