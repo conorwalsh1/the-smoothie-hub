@@ -16,3 +16,5 @@ Issues
 
 corrupted data base, had to go into heroku and delete database
 
+unable to migrate until (blank=True) for post class in models
+

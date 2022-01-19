@@ -224,7 +224,7 @@ body {
     width: 65%;
     margin-top: 15px;
     margin-bottom: 15px;
-    border: 4px double black
+    border: 4px double black;
 }
 
 .smoothie-img-align {
@@ -386,6 +386,10 @@ body {
     color: black;
 }
 
+.recipe-card {
+    background-color: rgb(255, 255, 255);
+}
+
 /* Recipe Text */
 
 .smoothie-post-title {
@@ -393,14 +397,27 @@ body {
     color: black;
     font-size: 50px;
     font-weight: 800;
-    margin-top: 45px;
+    margin-top: 30px;
+    text-align: center;
+}
 
+.smoothie-post-subtitle {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .recipe-text {
     font-family: 'Open Sans Condensed', sans-serif;
     color: black;
     font-size: 25px;
+}
+
+.recipe-img {
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 6px double black;
 }
 
 /* Comments */
