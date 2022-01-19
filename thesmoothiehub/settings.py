@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'recipe',
     'about',
     'contact',
+    'create_recipe_form',
 ]
 
 SITE_ID = 1
