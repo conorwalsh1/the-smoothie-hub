@@ -53,6 +53,9 @@
                 </li>
                 {% if user.is_authenticated %}
                     <li class="nav-item">
+                      <a class="nav-links" href="{% url 'view_your_recipes' %}">View Your Recipes</a>
+                    </li>
+                    <li class="nav-item">
                       <a class="nav-links" href="{% url 'create_recipe_form' %}">Create A Recipe</a>
                     </li>
                     <li class="nav-item">

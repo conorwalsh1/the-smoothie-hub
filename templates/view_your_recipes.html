@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% load i18n %}
+
+{% block content %}
+
+{{ queryset }}
+
+<table>
+    {% for set in queryset %}
+        <tr>
+            <td>{{ set.ingredients }}</td>           
+            <td>{{ set.method }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}

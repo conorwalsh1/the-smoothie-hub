@@ -21,6 +21,7 @@ urlpatterns = [
     path('summernote/', include('django_summernote.urls')),
     path('', include('home.urls')),
     path('create_recipe_form/', include('create_recipe_form.urls')),
+    path('view_your_recipes/', include('view_your_recipes.urls')),
     path('about/', include('about.urls')),
     path('contact/', include('contact.urls')),
     path('recipes/', include('recipe.urls'), name='recipe_urls'),
