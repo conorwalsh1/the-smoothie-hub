@@ -4,10 +4,27 @@
 
 {% block content %}
 
-{{ queryset }}
+    <h2 class="contact-title">Create a Recipe</h2>
 
-    <h1>Add A Recipe:</h1>
-   
-
+    <form method="POST" action="create_recipe_form">
+        {% csrf_token %}
+        <div>
+            <p>
+                <label for="id_ingredients">Ingredients: </label>
+                <input type="text" id="id_ingredients" name="ingredients">
+            </p>
+        </div>
+        <div>
+            <p>
+                <label for="id_method">Method: </label>
+                <input type="text" id="id_method" name="method">
+            </p>
+        </div>
+        <div>
+            <p>
+                <button type="submit">Submit Recipe</button>
+            </p>
+        </div>
+    </form>
 
 {% endblock %}
