@@ -37,3 +37,9 @@ def edit_recipe(request, recipe_id):
     }
     return render(request, 'edit_recipe.html', context)
 
+def delete_recipe(request, recipe_id):
+    set = get_object_or_404(CreateRecipe, id=recipe_id)
+    set.delete()
+    return redirect('/view_your_recipes/') 
+
+
