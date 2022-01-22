@@ -4,7 +4,7 @@
 
 {% block content %}
 
-    <h2 class="about-title">Create a Recipe</h2>
+    <h2 class="about-title">Edit a Recipe</h2>
     {% if user.is_authenticated %}
 
     <div class="create-recipe-form">
@@ -13,7 +13,7 @@
             {{ form.as_p }}
             <div>
                 <p>
-                    <button class="submit-button smoothie-button" type="submit">Submit Recipe</button>
+                    <button class="submit-button smoothie-button" type="submit">Update Recipe</button>
                 </p>
             </div>
         </form>

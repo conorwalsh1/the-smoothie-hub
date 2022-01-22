@@ -22,6 +22,7 @@ urlpatterns = [
     path('', include('home.urls')),
     path('create_recipe_form/', include('create_recipe_form.urls')),
     path('', include('create_recipe_form.urls')),
+    path('edit_recipe/<recipe_id>/', include('create_recipe_form.urls')),
     path('about/', include('about.urls')),
     path('contact/', include('contact.urls')),
     path('recipes/', include('recipe.urls'), name='recipe_urls'),
