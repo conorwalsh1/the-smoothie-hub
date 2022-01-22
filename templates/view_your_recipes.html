@@ -5,25 +5,8 @@
 {% block content %}
 
 <h1 class="about-title">Your Recipes</h1>
-<!-- <table>
-    {% for set in queryset %}
-        <tr>
-            <td>Title: {{ set.title }}</td>
-            <td>Ingredients: {{ set.ingredients }}</td>           
-            <td>Method: {{ set.method }}</td>
-        </tr>
-    {% endfor %}
-</table>
 
 {% if user.is_authenticated %}
-    <div class="add-recipe-link">
-        <a href="/create">Add a Recipe!</a>
-    </div>
-
-{% else %}
-    <p class="recipe-login-prompt">You must log in to create a recipe.</p>
-
-{% endif %} -->
 
 <table class="table table-bordered recipe-table center">
         <thead class="recipe-table">
@@ -44,14 +27,13 @@
     {% endfor %}    
 </table>
 
-{% if user.is_authenticated %}
+
     <div class="add-recipe-link">
         <a href="/create">Add a Recipe!</a>
     </div>
 
 {% else %}
-    <p class="recipe-login-prompt">You must log in to create a recipe.</p>
-
+    <p class="recipe-login-prompt">You must log in to view your recipes. You can log in <a href="{% url 'account_login' %}">here</a>!</p>
 {% endif %}
 
 

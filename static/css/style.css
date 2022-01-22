@@ -176,14 +176,19 @@ body {
 
 /* Navbar  */
 
+.nav-bar {
+    background-color: rgb(223, 223, 223);;
+}
+
 .navbar-title {
     font-family: 'Shadows Into Light', cursive;
     font-weight: 800;
     color: black;
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
     text-decoration: none;
     margin-left: 20px;
+    margin-right: 30px;
 }
 
 .navbar-title:hover {
@@ -194,9 +199,11 @@ body {
 .nav-links {
     font-family: 'Open Sans Condensed', sans-serif;
     color: black;
-    font-size: 35px;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 65px;
     margin-right: 10px;
+    margin-left: 20px;
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
@@ -215,6 +222,14 @@ body {
     margin-top: -20px;
 }
 
+.welcome-message {
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 50px;
+    margin-left: 20px;
+    color: black;
+    text-align: center;
+}
+
 /* Home Page */
 
 
@@ -222,7 +237,7 @@ body {
 .smoothie-img {
     position: relative;
     width: 65%;
-    margin-top: 15px;
+    margin-top: 45px;
     margin-bottom: 15px;
     border: 4px double black;
 }
