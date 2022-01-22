@@ -4,7 +4,7 @@ from django.db import models
 
 class CreateRecipe(models.Model):
 
-    title = title = models.CharField(max_length=200, unique=True, default=False)
+    title = models.CharField(max_length=200, default=False)
     ingredients = models.TextField(null=False, blank=False)
     method = models.TextField(null=False, blank=False)
 

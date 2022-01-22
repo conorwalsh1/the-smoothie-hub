@@ -4,17 +4,55 @@
 
 {% block content %}
 
-{{ queryset }}
-
-<table>
+<h1 class="about-title">Your Recipes</h1>
+<!-- <table>
     {% for set in queryset %}
         <tr>
-            <td>{{ set.ingredients }}</td>           
-            <td>{{ set.method }}</td>
+            <td>Title: {{ set.title }}</td>
+            <td>Ingredients: {{ set.ingredients }}</td>           
+            <td>Method: {{ set.method }}</td>
         </tr>
     {% endfor %}
 </table>
-<a href="/create_recipe_form">Add a recipe</a>
+
+{% if user.is_authenticated %}
+    <div class="add-recipe-link">
+        <a href="/create">Add a Recipe!</a>
+    </div>
+
+{% else %}
+    <p class="recipe-login-prompt">You must log in to create a recipe.</p>
+
+{% endif %} -->
+
+<table class="table table-bordered recipe-table center">
+        <thead class="recipe-table">
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Ingredients</th>
+            <th scope="col">Method</th>
+        </tr>
+        </thead>
+    {% for set in queryset %}    
+        <tbody class="recipe-table">
+        <tr>
+            <td>{{ set.title }}</td>
+            <td>{{ set.ingredients }}</td>
+            <td>{{ set.method }}</td>
+        </tr>
+        </tbody>
+    {% endfor %}    
+</table>
+
+{% if user.is_authenticated %}
+    <div class="add-recipe-link">
+        <a href="/create">Add a Recipe!</a>
+    </div>
+
+{% else %}
+    <p class="recipe-login-prompt">You must log in to create a recipe.</p>
+
+{% endif %}
 
 
 {% endblock %}

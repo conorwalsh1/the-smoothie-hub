@@ -51,10 +51,13 @@
                 <li class="nav-item">
                   <a class="nav-links" href="{% url 'recipes' %}">Recipes</a>
                 </li>
-                {% if user.is_authenticated %}
+      
                     <li class="nav-item">
                       <a class="nav-links" href="{% url 'view_your_recipes' %}">View Your Recipes</a>
                     </li>
+                    {% if user.is_authenticated %}
+                      <!-- Display user name once logged in -->
+                    {{ user.username }}
                     <li class="nav-item">
                       <a class="nav-links" href="{% url 'create_recipe_form' %}">Create A Recipe</a>
                     </li>
