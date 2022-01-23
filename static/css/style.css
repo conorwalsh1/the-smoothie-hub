@@ -187,8 +187,7 @@ body {
     font-size: 35px;
     text-align: center;
     text-decoration: none;
-    margin-left: 20px;
-    margin-right: 30px;
+    margin: -10px 30px 0px 20px;
 }
 
 .navbar-title:hover {
@@ -201,12 +200,11 @@ body {
     color: black;
     font-size: 20px;
     font-weight: 600;
-    line-height: 65px;
-    margin-right: 10px;
-    margin-left: 20px;
+    margin: 25px 10px 35px 20px;
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
+    text-align: center;
 }
 
 .nav-links:hover {
@@ -218,14 +216,12 @@ body {
     margin: 15px;
 }
 
-.nav-divider {
-    margin-top: -20px;
-}
+
 
 .welcome-message {
     font-family: 'Open Sans Condensed', sans-serif;
-    line-height: 50px;
     margin-left: 20px;
+    margin-top: 20px;
     color: black;
     text-align: center;
 }
@@ -319,38 +315,12 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     color: black;
     font-size: 35px;
-    margin: 50px 25px 50px;
+    margin: 0px 25px 50px 25px;
     font-weight: 700;
-}
+} 
 
-.form-controls {
-    display: block;
-    width: 100%;
-    height: calc(1.5em + 0.75rem + 2px);
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    margin: 20px 20px 20px 20px;
-}
-
-.labels {
-    display: block;
-    margin: -15px 20px 20px 30px;
-}
-
-.contact-box-small {
-    width: 45%;
-}
-
-.contact-box-big {
-    width: 90%;
+.contact-title-height {
+    margin-top: 75px;
 }
 
 .contact-button {
@@ -359,7 +329,7 @@ body {
     border: 2px solid black;
     font-family: 'Shadows Into Light', cursive;
     font-size: 25px;
-    width: 35%;
+    width: 25%;
 }
 
 .contact-button:hover {
@@ -368,11 +338,8 @@ body {
 }
 
 .contact-list {
+    list-style: none;
     text-align: center;
-}
-
-.contact-tab {
-    margin: 35px 60px;
 }
 
 /* Footer */

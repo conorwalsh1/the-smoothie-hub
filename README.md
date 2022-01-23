@@ -18,3 +18,10 @@ corrupted data base, had to go into heroku and delete database
 
 unable to migrate until (blank=True) for post class in models
 
+https://stackoverflow.com/questions/14837466/clearing-a-text-field-on-button-click
+function ClearFields() {
+
+     document.getElementById("textfield1").value = "";
+     document.getElementById("textfield2").value = "";
+}
+
