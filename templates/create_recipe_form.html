@@ -4,7 +4,7 @@
 
 {% block content %}
 
-    <h2 class="about-title">Create a Recipe</h2>
+    <h2 class="about-title">Submit A New Recipe</h2>
     {% if user.is_authenticated %}
 
     <div class="create-recipe-form">
@@ -20,7 +20,7 @@
     </div>
 
     {% else %}
-        <p class="recipe-login-prompt">You must log in to create a recipe. You can log in <a href="{% url 'account_login' %}">here</a>!</p>
+        <p class="recipe-login-prompt">You must log in to submit a new recipe. You can log in <a href="{% url 'account_login' %}">here</a>!</p>
     {% endif %}
 
 

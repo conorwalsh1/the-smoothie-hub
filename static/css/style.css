@@ -435,6 +435,13 @@ body {
     border: 6px double black;
 }
 
+/* Featured Recipe Likes */
+
+.like-button {
+    border-style: none;
+    background-color: white;
+}
+
 /* Comments */
 
 .comment-title {

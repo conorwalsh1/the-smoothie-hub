@@ -4,7 +4,7 @@
 
 {% block content %}
 
-<h1 class="about-title">Your Recipes</h1>
+<h1 class="about-title">Your Submitted Recipes</h1>
 
 {% if user.is_authenticated %}
 
@@ -39,11 +39,11 @@
 
 
     <div class="add-recipe-link">
-        <a href="/create">Add a Recipe!</a>
+        <a href="/create">Submit A New Recipe!</a>
     </div>
 
 {% else %}
-    <p class="recipe-login-prompt">You must log in to view your recipes. You can log in <a href="{% url 'account_login' %}">here</a>!</p>
+    <p class="recipe-login-prompt">You must log in to view your submitted recipes. You can log in <a href="{% url 'account_login' %}">here</a>!</p>
 {% endif %}
 
 

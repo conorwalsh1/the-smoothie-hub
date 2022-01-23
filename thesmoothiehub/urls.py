@@ -28,6 +28,4 @@ urlpatterns = [
     path('contact/', include('contact.urls')),
     path('recipes/', include('recipe.urls'), name='recipe_urls'),
     path('accounts/', include('allauth.urls')),
-
-    
 ]
