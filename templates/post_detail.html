@@ -104,8 +104,10 @@
                     <!-- The body of the comment goes before the | -->
                     {{ comment.body | linebreaks }}
                 </div>
-                <!-- Our for loop ends here -->
                 {% endfor %}
+
+                
+                
             </div>
         </div>
         <div class="col-md-4 card mb-4  mt-3 ">
@@ -125,6 +127,8 @@
                     {% csrf_token %}
                     <button type="submit" class="green-button btn btn-signup btn-lg">Submit</button>
                 </form>
+                {% else %}
+                <p class="comment-login-prompt">Please log in to leave a comment. You can log in <a href="{% url 'account_login' %}">here!</a></p>
                 {% endif %}
                 {% endif %}
             </div>
