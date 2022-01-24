@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'django_summernote',
     'crispy_forms',
     'home',
-    'recipe',
+    'featured_recipe',
     'about',
     'contact',
     'create_recipe_form',

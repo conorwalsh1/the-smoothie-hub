@@ -26,6 +26,6 @@ urlpatterns = [
     path('delete_recipe/<recipe_id>/', include('create_recipe_form.urls')),
     path('about/', include('about.urls')),
     path('contact/', include('contact.urls')),
-    path('recipes/', include('recipe.urls'), name='recipe_urls'),
+    path('featured_recipes/', include('featured_recipe.urls'), name='featured_recipe_urls'),
     path('accounts/', include('allauth.urls')),
 ]
