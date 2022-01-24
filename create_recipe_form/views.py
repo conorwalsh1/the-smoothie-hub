@@ -16,6 +16,7 @@ def create_recipe_form(request):
     if request.method == 'POST':
         form = CreateRecipeForm(request.POST)
         if form.is_valid():
+            form.instance.author = request.user
             form.save()
             return redirect('/view_your_recipes/') 
     form = CreateRecipeForm()
