@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('recipe', '0005_auto_20220118_1338'),
+        ('featured_recipe', '0005_auto_20220118_1338'),
     ]
 
     operations = [
