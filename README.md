@@ -4,9 +4,9 @@
 
 ---
 
-[Live Website](https://conorwalsh1.github.io/ceart-kids-quiz/)
+[Live Website](https://thesmoothiehub.herokuapp.com/)
 
-[Github Repository](https://github.com/conorwalsh1/ceart-kids-quiz)
+[Github Repository](https://github.com/conorwalsh1/the-smoothie-hub)
 
 ---
 
