@@ -12,13 +12,9 @@
 
 # About
 
-Welcome to Ceart (Ceart is the Irish translation of the word 'Correct'), an online multiple choice quiz for kids that tests their knowledge of the Irish language. I set out to create a quiz that is both easy to navigate and clear in it's intent.
+Welcome to 'The Smoothie Hub', a site where users can come together to view new recipies, share their own creations and comment on their favourite smoothie recipes. The site allows users to sign up for a free account. Once they have signed up and logged in, they will be able to create a recipe which will then be submitted to the site owner. These submissions will be made available in the 'Your Submitted Recipes' window where only the user who submitted can view, edit or delete their own submissions.
 
-As most people who learn the Irish language do so when they are a child, I prioritised a landing page which welcomes the site visitor using clear and easy to read English in a small paragraph with a large button that reads "Start Quiz". The welcome message informs the user that they have ten questions to answer and it also encourages the user to try again if they answer incorrectly. Once the start quiz button is clicked, the welcome message will disappear and the quiz will begin. 
-
-The site user will be asked a question at the top of the screen under which they will have four buttons with each button containing a possible answer. If the correct button is clicked, the button selected will turn green and the "Correct" score tracker will increment by 1, however if they choose incorrectly, the button selected will turn red and the "Incorrect" score tracker will increment by 1 for each wrong answer selected
-
-The quiz is comprised of a total of ten questions with each question being labelled with a number to show the user where they stand in terms of total questions remaining. Once the tenth question has been answered, the quiz area will be cleared of questions and answer buttons and a closing message will inform the user that they have reached the end of the quiz. The closing message will congratulate them on completing the quiz and will ask them how they fared. The user will be informed that if they would like to restart they quiz, they need only click on the little green map of Ireland thaat remains at the top of the page in the logo. Their final scores will be stored at the top of the page, showing how many answers they got correct and how many were answered incorrectly.
+If the site owner likes a submission, they will go ahead and format the recipe to their liking and the smoothie recipe will be featured in the 'Featured Recipes' page. Unauthorised and authorised site users will be able to view the 'Featured Recipe' section, but only authorised users will be able to leave likes and comments under the recipes.
 
 This website was built using a Macbook Pro 13". 
 
@@ -26,44 +22,70 @@ This website was built using a Macbook Pro 13".
 
 -   ### User stories
 
-    -   #### First Time Visitor Goals
+    -   #### As a User
+        - I want to edit and delete my submitted smoothie recipes.
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and I want to feel encouraged to click the Start Quiz button and for the button to be clearly visible.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site from the start of the quiz to the end.
-        3. As a First Time Visitor, I want to feel a sense of accomplishment in completing the quiz. I want to be able to see my result to see how good my Irish skills are.
+        - I want to move between the different links on the navbar.
 
-    -   #### Returning Visitor Goals
+        - I want to comment under recipes.
 
-        1. As a Returning Visitor, I want to be able to challenge myself to see if I can get a better score.
-        2. As a Returning Visitor, I want to have fun whilst also learning more about the Irish language.
-        3. As a Returning Visitor, I want to be able to navigate my way through the site with ease and without confusion.
+        - I want to like my favourite recipes.
 
-    -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if my results are improving as time goes on, getting less incorrect answers and more correct.
-        2. As a Frequent User, I want to check to see if there are any new questions sorted by different topics or difficulty.
-        3. As a Frequent User, I want to feel that I am learning more about the Irish language as time goes on.
+        - I want to visit the contact page.
+
+        - I want to visit the about page.
+
+        - I want to create my own account.
+
+        - I want to view smoothie recipes.
+
+    -   #### As a Site Owner
+        - I want to choose from the submitted recipes which ones get selected for the 'Featured Recipes' tab.
+
+        - I want to create a form for recipe submissions.
+
+        - I want to ensure that the login/logout feature works correctly.
+
+        - I want to ensure only logged in users can submit, edit and delete their own recipes.
+
+        - I want to validate comments made under 'Featured Recipes'.
+
+        - I want to display messages to let users know an action has been completed.
+
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used are grey, green, orange, black, brown and red. I used a black square with a brown boarder to create what looks like a blackboard that teachers use in Irish classrooms to make the site user feel like they are in a learning environment. I used a grey background so this blackboard would pop against it. I used the colour green for both the map of Ireland in the logo, favicon and as a transition effect if the correct answer is selected. I used white for the button backgrounds and for the writing on the blackboard. I used black for writing inside the buttons and outside the quiz area. I used red as a transition effect if the icorrect answer is selected. I used the colour combination of green, white and orange to symbolise Ireland.
+        -   I decided to go for a minimalist approach with the colour scheme on this project. The pictures that appear throughout the site are vibrant and bold, so as a backdrop, I went with a light grey (RAL 9003) to allow the pictures to pop against it. The text throughout the site is plain black (RAL 9005) as it contrasts well with the light grey. I only use white text in some of the buttons where a transition effect changes the button colour from the normal RAL 9003 to RAL 6038 which is a shade of green dark enough that black text is harder to read so white textworks better.
     -   #### Typography
-        -   The 'Coming Soon' font is used throughout the body with the only expection being that Arial is used inside the buttons as it makes them look more crisp and easy to read. I chose 'Coming Soon' as I wanted to have a font that resembled handwriting on the blackboard that would be done in chalk in a standard classroom. I feel it works very effectively. I also chose to use it for the correct and incorrect scores as it is laidback and child friendly. I chose Arial for all the buttons as it clear for the user when they want to make a decision on what the answer is.
+        -   The 'Shadows Into Light' font is used to create the brand title for 'The Smoothie Hub' in the navbar. I also used 'Shadows Into Light' for custom buttons throughout the site and also in the recipe titles in the 'Featured Recipes' window. It is a casual looking font that resembles handwriting. I felt it was legible and worked well with the health and wellness theme of the site. I chose 'Open Sans Condensed' to be used for the navbar items and throughout the body of the HTML files also as I felt it complimented the 'Shadows Into Light' font but I felt that it also worked well as a clear and legible font on its own.
     -   #### Imagery
-        -   Imagery does not play a part on this site currently. It is a future feature that could be added to the questions. Though not technically an image, there is a map of Ireland in the logo what was created using an external logo creator called https://logomakr.com/. The quiz area blackboard does act like an image as it holds all information about the quiz within it but is not technically an image. The only images that appear in the images folders are that of the favicon, the logo, the wireframes and the responsibve test.
+        -   I used square shaped images as much as possible for this site. It keeps the cards looking tidy in the 'Featured Recipes' window and when you open a recipe, the picture doens't tend to dominate the screen when it is not vertically overbearing
 
 *   ### Wireframes
 
-    -   I chose to use Balsamiq Wireframes to plan out how I hoped for the site to look. I will post three pictures below, showing how I wanted the start of the quiz, the quiz questions and the end of the quiz to appear.
+    -   I chose to use Balsamiq Wireframes to plan out how I wanted the site to look. The pictures posted below show how I wanted the Home page, the Featured Recipes page, the About page, the Contact Page, the Your Submitted Recipes page and the Submit A New Recipe to appear.
 
-    <h2 align="center">Start of Quiz</h2>
+    <h2 align="center">Home</h2>
 
     ![Start of Quiz](assets/images/wireframe-quiz-start.png)
 
-    <h2 align="center">Quiz Questions</h2>
+    <h2 align="center">Featured Recipes</h2>
 
     ![Quiz Questions](assets/images/wireframe-quiz-question.png)
 
-    <h2 align="center">End of the Quiz</h2>
+    <h2 align="center">About</h2>
+
+    ![End of the Quiz](assets/images/wireframe-quiz-end.png)
+
+    <h2 align="center">Contact Page</h2>
+
+    ![End of the Quiz](assets/images/wireframe-quiz-end.png)
+
+    <h2 align="center">Your Submitted Recipes</h2>
+
+    ![End of the Quiz](assets/images/wireframe-quiz-end.png)
+
+    <h2 align="center"> Submit A New Recipe</h2>
 
     ![End of the Quiz](assets/images/wireframe-quiz-end.png)
 

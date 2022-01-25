@@ -258,7 +258,7 @@ body {
 
 .green-button {
     background-color: rgb(223, 223, 223);
-    color: black; 
+    color: rgb(0, 0, 0); 
     border: 2px solid black;
     padding: 10px 30px;
     font-family: 'Shadows Into Light', cursive;
@@ -340,6 +340,11 @@ body {
 .contact-list {
     list-style: none;
     text-align: center;
+}
+
+.contact-text {
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 /* Footer */
