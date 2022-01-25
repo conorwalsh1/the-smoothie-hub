@@ -45,15 +45,20 @@
             <a class="nav-links" href="{% url 'view_your_recipes' %}">Your Submitted Recipes</a>
           </li>
               {% if user.is_authenticated %}
-              <li class="nav-item">
-                <a class="nav-links" href="{% url 'create_recipe_form' %}">Submit A New Recipe</a>
-              </li>
-              <li class="nav-item">
+                <li class="nav-item">
+                  <a class="nav-links" href="{% url 'create_recipe_form' %}">Submit A New Recipe</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-links" href="{% url 'account_logout' %}">Logout</a>
-              </li>
-              <span class="welcome-message navbar-text">
-                Welcome back {{ user.username }}!
-              </span>
+                </li>
+                {% if user.username == "manager"  %}
+                <li class="nav-item">
+                  <a class="nav-links" href="{% url 'admin:index' %}">Admin</a>
+                </li>
+                {% endif %}
+                <span class="welcome-message navbar-text">
+                  Welcome back {{ user.username }}!
+                </span>
               {% else %}
               <li class="nav-item">
                   <a class="nav-links" href="{% url 'account_login' %}">Login</a>
