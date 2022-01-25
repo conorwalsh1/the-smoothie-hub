@@ -161,23 +161,23 @@ This website was built using a Macbook Pro 13".
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+-   [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Coming Soon' font into the style.css file which is used throughout the body of the project.
+    - Google fonts was used to import the 'Shadows Into Light' and 'Open Sans Condensed' fonts into the style.css file which is used throughout the project.
 2. [Balsamiq:](https://fontawesome.com/)
     - Balsamiq was used to draft up the wireframes for the project which helped me visualise what I wanted to achieve.
 3. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 4. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-5. [Logo Makr:](https://logomakr.com/)
-    - Logo Makr was used to create the Ceart logo which included the green map of Ireland.
-6. [Responsive Design:](http://ami.responsivedesign.is/)
+5. [Responsive Design:](http://ami.responsivedesign.is/)
     - Responsive design was used to create responsive design imitator image.
-7. [Chrome DevTools:](https://developer.chrome.com/docs/devtools/)
+6. [Chrome DevTools:](https://developer.chrome.com/docs/devtools/)
     - Used to test code throughout the project by using the console and by trying out different variations of code before settling on any type and implementing it into the project.
+
 
 
 
