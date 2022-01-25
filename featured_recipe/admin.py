@@ -11,7 +11,7 @@ class PostAdmin(SummernoteModelAdmin):
     prepopulated_fields = {'slug': ('title',)}
     list_filter = ('status', 'created_on')
     summernote_fields = ('ingredients', 'method')
- 
+
 
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
