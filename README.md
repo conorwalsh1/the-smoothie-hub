@@ -166,7 +166,6 @@ This website was built using a Macbook Pro 13".
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 -   [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 ### Frameworks, Libraries & Programs Used
@@ -196,8 +195,8 @@ The W3C Markup Validator, W3C CSS Validator, JSHint and PEP8 were used to valida
     <h2 align="center">CSS Validator Results</h2>
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     ![CSS Validator Results](assets/images/ceart-css-test.png)
-    <h2 align="center">JavaScript Validator Results</h2>    
--   [JSHint](https://https://jshint.com/)
+    <h2 align="center">PEP8 Online</h2>    
+-   [PEP8](http://pep8online.com/)
     ![JavaScript Validator Results](assets/images/ceart-js-test.png)
 
 ### Testing User Stories from User Experience (UX) Section
