@@ -320,6 +320,12 @@ body {
 
 /* Media Queries */
 
+@media only screen and (max-width: 995) {
+
+    .nav-links {
+        margin: 15px 10px 15px 20px;
+}
+
 @media only screen and (max-width: 410px) {
 
     .navbar-title {
