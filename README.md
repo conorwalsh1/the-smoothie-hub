@@ -1,6 +1,6 @@
 <h1 align="center">The Smoothie Hub</h1>
 
-![Responsive Test](assets/images/ceart-responsive.png)
+![Responsive Test](media/images/responsive-test.png)
 
 ---
 
@@ -65,29 +65,63 @@ This website was built using a Macbook Pro 13".
 
     -   I chose to use Balsamiq Wireframes to plan out how I wanted the site to look. The pictures posted below show how I wanted the Home page, the Featured Recipes page, the About page, the Contact Page, the Your Submitted Recipes page and the Submit A New Recipe to appear.
 
+    <br>
+
     <h2 align="center">Home</h2>
 
-    ![Start of Quiz](assets/images/wireframe-quiz-start.png)
+    <br>
+
+    ![Home](media/images/bal-home.png)
+
+    <br>
 
     <h2 align="center">Featured Recipes</h2>
 
-    ![Quiz Questions](assets/images/wireframe-quiz-question.png)
+    <br>
+
+    ![Featured Recipe](media/images/bal-featured-recipes.png)
+
+    <br>
 
     <h2 align="center">About</h2>
 
-    ![End of the Quiz](assets/images/wireframe-quiz-end.png)
+    <br>
 
-    <h2 align="center">Contact Page</h2>
+    ![About](media/images/bal-about.png)
 
-    ![End of the Quiz](assets/images/wireframe-quiz-end.png)
+    <br>
 
-    <h2 align="center">Your Submitted Recipes</h2>
+    <h2 align="center">Contact Us</h2>
 
-    ![End of the Quiz](assets/images/wireframe-quiz-end.png)
+    <br>
+
+    ![Contact Us](media/images/bal-contact.png)
+
+    <br>
+
+    <h2 align="center">Your Submitted Recipes - Logged Out</h2>
+
+    <br>
+
+    ![Your Submitted Recipes - Logged Out](media/images/bal-view-recipe-logged-out.png)
+
+    <br>
+
+    <h2 align="center">Your Submitted Recipes - Logged In</h2>
+
+    <br>
+
+    ![Your Submitted Recipes - Logged In](media/images/bal-view-recipe-logged-in.png)
+
+    <br>
 
     <h2 align="center"> Submit A New Recipe</h2>
 
-    ![End of the Quiz](assets/images/wireframe-quiz-end.png)
+    <br>
+
+    ![Submit A New Recipe](media/images/bal-submit-new-recipe.png)
+
+    <br>
 
     
 ## Features
