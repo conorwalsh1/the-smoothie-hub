@@ -193,8 +193,8 @@ The W3C Markup Validator, W3C CSS Validator, JSHint and PEP8 were used to valida
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) 
     ![HTML Validator Results](media/images/html-validator.png)
     <h2 align="center">CSS Validator Results</h2>
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-    ![CSS Validator Results](assets/images/ceart-css-test.png)
+-   [W3C CSS Validator](https://res.cloudinary.com/df43mitr9/raw/upload/v1/static/css/style.9b6ff134680e.css)
+    ![CSS Validator Results](media/images/css-validator.png)
     <h2 align="center">PEP8 Online</h2>    
 -   [PEP8](http://pep8online.com/)
     ![JavaScript Validator Results](assets/images/ceart-js-test.png)
