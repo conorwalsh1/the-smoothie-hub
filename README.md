@@ -189,10 +189,10 @@ This website was built using a Macbook Pro 13".
 
 ## Testing
 
-The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator, JSHint and PEP8 were used to validate every page of the project to ensure there were no syntax errors in the project.
     <h2 align="center">HTML Validator Results</h2>
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) 
-    ![HTML Validator Results](assets/images/ceart-html-test.png)
+    ![HTML Validator Results](media/images/html-validator.png)
     <h2 align="center">CSS Validator Results</h2>
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     ![CSS Validator Results](assets/images/ceart-css-test.png)
