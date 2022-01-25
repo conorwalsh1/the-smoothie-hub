@@ -40,7 +40,7 @@ This website was built using a Macbook Pro 13".
         - I want to view smoothie recipes.
 
     -   #### As a Site Owner
-        - I want to choose from the submitted recipes which ones get selected for the 'Featured Recipes' tab.
+        - I want to choose which submitted recipes get selected for the 'Featured Recipes' tab.
 
         - I want to create a form for recipe submissions.
 
@@ -52,6 +52,8 @@ This website was built using a Macbook Pro 13".
 
         - I want to display messages to let users know an action has been completed.
 
+        - I want to moderate the formatting of the site to ensure consistency of output.
+
 
 -   ### Design
     -   #### Colour Scheme
@@ -59,7 +61,7 @@ This website was built using a Macbook Pro 13".
     -   #### Typography
         -   The 'Shadows Into Light' font is used to create the brand title for 'The Smoothie Hub' in the navbar. I also used 'Shadows Into Light' for custom buttons throughout the site and also in the recipe titles in the 'Featured Recipes' window. It is a casual looking font that resembles handwriting. I felt it was legible and worked well with the health and wellness theme of the site. I chose 'Open Sans Condensed' to be used for the navbar items and throughout the body of the HTML files also as I felt it complimented the 'Shadows Into Light' font but I felt that it also worked well as a clear and legible font on its own.
     -   #### Imagery
-        -   I used square shaped images as much as possible for this site. It keeps the cards looking tidy in the 'Featured Recipes' window and when you open a recipe, the picture doens't tend to dominate the screen when it is not vertically overbearing
+        -   I used landscape oriented images for this site. It keeps the cards looking tidy in the 'Featured Recipes' window and when you open a recipe, the picture doens't tend to dominate the screen when it is not vertically overbearing.
 
 *   ### Wireframes
 
@@ -124,7 +126,11 @@ This website was built using a Macbook Pro 13".
     <br>
 
     
-## Features
+# Features
+
+## Navbar
+
+- The navbar
 
 -   Responsive on all device sizes. On wider screens the questions and buttons stretch out to make use of space but on smaller screens the media queries ensure the quiz is adaptive and clean
 
