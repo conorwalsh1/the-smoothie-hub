@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+# This function renders the about.html page
 
 
 def about(request):

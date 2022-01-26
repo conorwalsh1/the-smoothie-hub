@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from .models import CreateRecipe
 from .forms import CreateRecipeForm
 
-# Create your views here.
+# This function renders the view_your_recipes.html page
 
 
 def view_your_recipes(request):
@@ -12,6 +12,9 @@ def view_your_recipes(request):
         'queryset': queryset
     }
     return render(request, "view_your_recipes.html", context)
+
+
+# This function handles the create recipe form
 
 
 def create_recipe_form(request):
@@ -28,6 +31,9 @@ def create_recipe_form(request):
     return render(request, "create_recipe_form.html", context)
 
 
+# This function handles the edit recipe form
+
+
 def edit_recipe(request, recipe_id):
     set = get_object_or_404(CreateRecipe, id=recipe_id)
     if request.method == 'POST':
@@ -40,6 +46,9 @@ def edit_recipe(request, recipe_id):
         'form': form
     }
     return render(request, 'edit_recipe.html', context)
+
+
+# This function allows recipes to be deleted
 
 
 def delete_recipe(request, recipe_id):
