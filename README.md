@@ -194,41 +194,95 @@ This website was built using a Macbook Pro 13".
 
 <br>
 
+## Your Submitted Recipes
 
+<br>
 
+![Submitted Recipes Logged Out](media/images/submitted-prompt.png)
 
+<br>
 
+- The 'Your Submitted Recipes' page is displayed in two different ways, depending on whether the site user is logged in or not. If the user is not logged in, they will be shown the prompt above encouraging them to log in to view their submitted recipes with an appropriate hyperlink.
 
+<br>
 
+<br>
 
+![Submitted Recipes Logged In](media/images/submitted-recipes-readme.png)
 
--   Responsive on all device sizes. On wider screens the questions and buttons stretch out to make use of space but on smaller screens the media queries ensure the quiz is adaptive and clean
+<br>
 
--   Correct and Incorrect scores increment as according to users selecting the correct answer ot incorrect answer.
+- However, if the user is logged in, the 'Your Submitted Recipes' page will show a table which displays the users submitted recipes. This page only shows the users their own recipes, hiding others submissions from them. The table will have the column headings 'Title', 'Ingredients', 'Method' with a row beneath for each individual recipe submission. In the fourth or fifth column, the user will find a button where they can edit and delete recipes respectively. The effects of using these buttons will automatically be shown to the user, following inline with CRUD.
 
--   When hovered over, the 'Start Quiz' and 'Next' buttons transition to orange to encourage user to click.
+## Submit A New Recipe
 
--   Accessibility has been added in terms of both aria labels and aria labelled by to ensure the site is usable for anyone using screen readers.
+<br>
 
--   The 'Next' button toggles through questions until there are no questions left to display, at which point the closing message appears on screen.
+![Submit A New Recipes](media/images/submit-new-readme.png)
 
--   Ten seperate questions with different answers. If the correct answer is selected, button turns green. If incorrect button selected, button turns red.
+<br>
 
--   Welcome message upon loading the quiz informing player how the quiz works.
+- The 'Submit A New Recipe' link, whether it is clicked from the navbar or clicked at the bottom of the 'Your Submitted Recipes' upon successful login will bring users to a form. The inputs for this form are labelled 'Title', 'Ingredients', 'Method'. Upon clicking the 'Submit Recipe' button, the data will be sent to the database for the site owner to consider if it worthy of making the 'Featured Recipes' page, but it will also be sent to the 'Your Submitted Recipes' as we mentioned above where the user can then view, edit or delete.
 
--   Closing message upon completing the quiz congratulating the player, telling them how they scored and directing them to click the green map of Ireland in the logo if they would like to restart. There are four different messages that a player could receive, depending on their final score.
+<br>
 
--   The green map of Ireland in the logo contains a link so that when it is clicked, it will refresh the page, thereby restarting the quiz.
+![Submit A New Recipe Validation](media/images/form-validation.png)
 
-## Features I Would Have To Add
+<br>
 
--   Different topics of quiz questions, such as sport, history, geography.
+- I also implemented validation, whereby the user will not be able to submit a new recipe which has blank fields.
 
--   Different variations of difficulty to keep site users coming back (perhaps images to accompany certain questions on an easier mode.).
+<br>
 
--   A highscore page that stores users names and scores.
+## Admin
 
--   A timer so that players can test themselves to try and beat their previous times.
+<br>
+
+![Admin Overview](media/images/admin-overview.png)
+
+<br>
+
+- Once the superuser has logged into the site, they will have access to the Django admin panel via the link mentioned above in the Navbar section. From here, they will be able to handle all data sent by the user via the 'Submit A New Recipe' form and they will be able to wield this data. From the list of submitted recipes, they can choose which ones they wish to display in the 'Featured Recipes' page. In the picture above, the 'CREATE_RECIPE_FORM' section is where all recipes submitted via the 'Submit A New Recipe' form appear. Let's take a closer look at this section in the image below.
+
+<br>
+
+![Create Recipe Form Django Admin](media/images/create-recipe-form.png)
+
+<br>
+
+- Here, we can see three different recipes submitted by three different users. Notice how some users did not use capital letters in all the words of their recipe title. This just would not look good if it was to be published straight to the site. However, the site owner can see this, acknowledge that the recipe is indeed delicious and worthy of the "Featured Recipes" page and can style the recipe to his/her liking. I implemented Summernote to allow the site owner the adequate tools to format the recipes to their liking. In the image below, we can see that upon submission, the site user submitted the recipe without any real structure. The site owner can now copy this submitted information from the 'CREATE_RECIPE_FORM' section and bring it down to the 'FEATURED RECIPES' section which I will show below the two images images.
+
+<br>
+
+![Create Recipe Form Submission](media/images/form-example.png)
+
+<br>
+
+<br>
+
+![Post to Featured Recipes](media/images/featured-upload.png)
+
+<br>
+
+- Above, we can see the two forms that Marys submission takes. The first is her own submission that appeared in the 'CREATE_RECIPE_FORM' section. Now that we are in the 'FEATURED RECIPES' section, we can edit the post using summernote, making sure the font style and size is consistent. We can use an unordered list for the ingredits and then an ordered list for the method. Once this page is saved and set to publish, we can go back to our site where we can see Marys post has been uploaded with a picture, and other registered members of 'The Smoothie Hub' community can like and comment on the recipe post.
+
+<br>
+
+## Features To Add In The Future
+
+-   Ability for site owner to edit and validate recipes from the site as opposed to Django admin
+
+-   Ability for recipe authors to reply to comments under their recipe postings.
+
+-   Different categories for smoothies with a 'Sort By:' button so users and owner can sort recipes based on whether smoothies are healthy, sweet etc.
+
+- A contact form on site where users can contact owners directly.
+
+- A little icon which shows that recipe submission is pending approval from site owner which transforms into a tick mark if submission has been accepted.
+
+- A blog for the site.
+
+- A forum where users can ask general questions to the community of 'The Smoothie Hub'
 
 ## Technologies Used
 
@@ -252,9 +306,15 @@ This website was built using a Macbook Pro 13".
     - Responsive design was used to create responsive design imitator image.
 6. [Chrome DevTools:](https://developer.chrome.com/docs/devtools/)
     - Used to test code throughout the project by using the console and by trying out different variations of code before settling on any type and implementing it into the project.
-
-
-
+7. [Bootstrap:](https://getbootstrap.com/)
+    - Used to get code blocks for HTML.
+8. [Django:](https://www.djangoproject.com/)
+9. [Postgres:](https://www.postgresql.org/)
+10. [Heroku:](https://.heroku.com/)
+11. [Favicon:](https://favicon.io/)
+12. [W3C Markup Validator](https://validator.w3.org/)
+13. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+14. [PEP8](http://pep8online.com/)
 
 ## Testing
 
@@ -267,7 +327,8 @@ The W3C Markup Validator, W3C CSS Validator, JSHint and PEP8 were used to valida
     ![CSS Validator Results](media/images/css-validator.png)
     <h2 align="center">PEP8 Online</h2>    
 -   [PEP8](http://pep8online.com/)
-    ![JavaScript Validator Results](assets/images/ceart-js-test.png)
+    ![PEP8 Validator Results 1](media/images/pep8-1.png)
+    ![PEP8 Validator Results 2](media/images/pep8-2.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
