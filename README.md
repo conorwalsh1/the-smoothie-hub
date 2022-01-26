@@ -8,11 +8,14 @@
 
 [Github Repository](https://github.com/conorwalsh1/the-smoothie-hub)
 
+Admin Username: manager
+Admin Password: Bronze123
+
 ---
 
 # About
 
-Welcome to 'The Smoothie Hub', a site where users can come together to view new recipies, share their own creations and comment on their favourite smoothie recipes. The site allows users to sign up for a free account. Once they have signed up and logged in, they will be able to create a recipe which will then be submitted to the site owner. These submissions will be made available in the 'Your Submitted Recipes' window where only the user who submitted can view, edit or delete their own submissions.
+Welcome to 'The Smoothie Hub', a site where users can come together to view new recipes, share their own creations and comment on their favourite smoothie recipes. The site allows users to sign up for a free account. Once they have signed up and logged in, they will be able to create a recipe which will then be submitted to the site owner. These submissions will be made available in the 'Your Submitted Recipes' window where only the user who submitted can view, edit or delete their own submissions.
 
 If the site owner likes a submission, they will go ahead and format the recipe to their liking and the smoothie recipe will be featured in the 'Featured Recipes' page. Unauthorised and authorised site users will be able to view the 'Featured Recipe' section, but only authorised users will be able to leave likes and comments under the recipes.
 
@@ -451,7 +454,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Bootstrap](https://mdbootstrap.com/docs/b4/jquery/navigation/hamburger-menu/) - I used this code to set up my navbar.
 
--   [Bootstrap](https://mdbootstrap.com/docs/standard/navigation/footer/_ - I used this code to set up my footer.
+-   [Bootstrap](https://mdbootstrap.com/docs/standard/navigation/footer/) - I used this code to set up my footer.
 
 -   [BBC](https://www.bbcgoodfood.com/recipes/collection/smoothie-recipes) : I used the recipes from the BBC website to populate my forms.
 

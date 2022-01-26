@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
+from django.contrib import messages
 from .models import CreateRecipe
 from .forms import CreateRecipeForm
 
@@ -39,7 +40,7 @@ def edit_recipe(request, recipe_id):
     if request.method == 'POST':
         form = CreateRecipeForm(request.POST, instance=set)
         if form.is_valid():
-            message.success(request, 'Recipe edited successfully.')
+            messages.success(request, 'Recipe edited successfully.')
             form.save()
             return redirect('/view_your_recipes/')
     form = CreateRecipeForm(instance=set)
