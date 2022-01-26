@@ -39,8 +39,8 @@ def edit_recipe(request, recipe_id):
     if request.method == 'POST':
         form = CreateRecipeForm(request.POST, instance=set)
         if form.is_valid():
+            message.success(request, 'Recipe edited successfully.')
             form.save()
-            messages.success(request, 'Recipe edited successfully.')
             return redirect('/view_your_recipes/')
     form = CreateRecipeForm(instance=set)
     context = {

@@ -332,6 +332,8 @@ The W3C Markup Validator, W3C CSS Validator, and PEP8 were used to validate ever
 
 ## Testing
 
+### User
+
 1. As a user, I want to easily determine what kind of website it is.
     - Result: TEST PASSED
 2. As a user, I want to see what recipes are displayed on the 'Featured Recipes' page.
@@ -358,6 +360,32 @@ The W3C Markup Validator, W3C CSS Validator, and PEP8 were used to validate ever
     - Result: TEST PASSED
 13. As a user, I want to like a featured recipe.
     - Result: TEST PASSED
+
+### Site Owner
+
+1. As a site owner, I want to be able to access Django admin.
+    - Result: TEST PASSED
+2. As a site owner, I want to be able to view recipes submitted via "Submit A New Recipe" form.
+    - Result: TEST PASSED
+3. As a site owner, I want to be able to format submitted recipes.
+    - Result: TEST PASSED
+4. As a site owner, I want to be able to approve comments.
+    - Result: TEST PASSED
+5. As a site owner, I want to be able to see which user liked each post.
+    - Result: TEST PASSED
+6. As a site owner, I want to be able to format submitted recipes.
+    - Result: TEST PASSED
+7. As a site owner, I want to be able to add recipes to 'Featured Recipes' page.
+    - Result: TEST PASSED
+8. As a site owner, I want to be able to edit recipes on the 'Featured Recipes' page.
+    - Result: TEST PASSED
+8. As a site owner, I want to be able to delete recipes on the 'Featured Recipes' page.
+    - Result: TEST PASSED
+9. As a site owner, I want to receive an email if someone registers using an email.
+    - Result: TEST PASSED
+10. As a site owner, I want to send an email to user when they register using an email.
+    - Result: TEST PASSED
+
 
 ### Further Testing
 
@@ -421,42 +449,33 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html) : I copied the template code on this site so that my favicon would work correctly.
+-   [Bootstrap](https://mdbootstrap.com/docs/b4/jquery/navigation/hamburger-menu/) - I used this code to set up my navbar.
 
--   [Stack Overflow](https://stackoverflow.com/questions/2573979/force-page-reload-with-html-anchors-html-js) : I wanted to force a page reload once the logo was clicked and I acheived this using information here.
+-   [Bootstrap](https://mdbootstrap.com/docs/standard/navigation/footer/_ - I used this code to set up my footer.
 
--   [Stack Overflow](https://stackoverflow.com/questions/12194435/cannot-set-property-display-of-undefined) : I came across a bug stating "Cannot set display of undefined" in Dev tools. I followed an approach here to eradicate the issue.
+-   [BBC](https://www.bbcgoodfood.com/recipes/collection/smoothie-recipes) : I used the recipes from the BBC website to populate my forms.
 
--   [Stack Overflow](https://stackoverflow.com/questions/22549032/illegal-use-of-break-statement-javascript) : I was trying to use the "break" statement which I thought would end the loop generating quiz questions but it said "illegal use of break". I then researched online and found that the "return" statement was a better fit as it would break the execution flow of the function and that break was used more for 'for' or 'while' loops.
+-   [Stack Overflow](https://stackoverflow.com/) : I used Stack Overflow throught the development to fix minor errors along the way.
 
--   [Stack Overflow](https://stackoverflow.com/questions/3304014/how-to-interpolate-variables-in-strings-in-javascript-without-concatenation) : I used this resource to figure out how to interpolate the final score into the string of if statements that appear in the generateNextQuestion function.
+-   [Google Images](https://www.google.com/imghp?hl=en) : I used Google Images to populate my recipes with high quality images.
 
--   [YouTube](https://www.youtube.com/watch?v=MLfAW55_4cY) : I followed the first part of this tutorial to acheive the desired effect of a hover olay for my buttons.
+-   [W3Schools](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button3) : I used this site as I was looking to add a nice hover transition effect over my buttons.
 
--   [W3Schools](https://www.w3schools.com/cssref/pr_border-style.asp) : I used this site as I was looking to remove a border style that was appearing dotted when I just wanted a simple plain border.
-
--   [W3Schools](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp) : I used this site as I was looking for a way to stop the correct answer button from being clicked more than once which was incrementing the score infinitely based on how many time the user clicked the same correct answer.
-
-- My functions incrementScore and incrementIncorrectScore were taken from the 'Love Maths' Code Institute walkthrough, I replaced the Id's with my own.
+- [Dango](https://docs.djangoproject.com/en/4.0/topics/email/) - I used this page to learn how to add email feedback from the sign up form.
 
 ### Problems Overcame
 
--   I found Javascript quite tough initially. When I started the project I relied heavily on a Youtube tutorial (https://www.youtube.com/watch?v=riDzcEQbX6k&t=1374s) which created a multiple choice quiz exactly how I wanted it to look but I could not explain how any of the Javascript functions worked. I spoke with my tutor Maria who advised that the Javascript code must be custom written. I deleted the project and went back to the start of the Javascript course and I went through the modules again, this time bookmarking parts I realised I could use in my own project and thereby gaining a better understanding of JS. By the time I came through the JS module, I felt much more prepared and I started writing my own custom JS. You will be able to see in the commits where I deleted the JS code and started afresh.
+-   My database became corrupted twice, so I had to go into Heroku with the help of the tutors to overcome the issue by resetting the database and making all migrations again.
 
--   One function I had a lot of trouble with was the correctAnswer function. I spent a number of days working different angles but I was delighted to get it working in the end. What I figured out was that I was missing was the event parameter within the function itself.
+- I had found a bug where, whenever a new recipe was posted to the 'Featured Recipes' page, the post would be liked by every registered site user upon default. I brought to issue to the tutors after doing some research online. When they tested the making of a new recipe, the bug disappeared all of a sudden and it hasn't come back since.
 
--   I kept receiving an error once the quiz came to a close, saying :
+- I was getting a "Error 500" page whenever someone tried to sign up for an account by using an email in the "email optional" field. I sifted through the page on the Django website in regards to emails and I found a way of handling sign up form submissions that used an email address. I added EMAIL_BACKEND to the end of the settings.py file and also EMAIL_FILE_PATH. I created a new folder titled email_messages which was what the EMAIL_FILE_PATH was set to in settings. This solves the Error being thrown.
 
-    TypeError: Cannot read property 'question' of undefined
-       at generateQuestion (script.js:29)
-       at HTMLButtonElement.generateNextQuestion (script.js:57)
+- In my models.py file within the create_recipe_form app, I was unable to migrate changes as the terminal was stating that an item be set to default manually or automatically. I went back and added null=False, blank=False as per StackOverflow which solved this issue.
 
-    I kept looking through the course material and found the "break" statement which I thought would end the loop. I tried but it still wouldn't work. I then researched online and found that the "return" statement was a better fit as it would break the execution flow of the function and that break was used more for 'for' or 'while' loops.
+- Some bootstrap didn't load properly in the navbar so I had to overwrite it with CSS.
 
--   When the site was being tested, a user brought to my attention that the answer buttons could be clicked infinitely, which was an issue as the correct score could be incremented above ten which was how many questions and possible correct answers were present. I went about creating a function to resolve this issue by creating one function that disabled the buttons once the correct answer was clicked and another function that reactivated the buttons once the 'Next' button was clicked. I was happy to just block the user from clicking the correct answer more than once as the quiz is built for children, I want them to feel encouraged to try again to find out what the correct answer is, even if by process of elimination.
-
-
-
+    
 ### Content
 
 -   Code Institute README.md template.
@@ -467,34 +486,3 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Acknowledgements
 
 -   I would like to thank my mentor Maria Hynes for guiding me along the right path throughout our mentoring sessions. There were times I struggled with getting the way I wanted the code to look out of my head and onto the screen, but she gave me great motivation to persevere and I am very grateful for her assistance. I would also like to thank the tutors that helped me along the way.
-
-
-
-
-
-
-
-
-Links
-
-https://mdbootstrap.com/docs/b4/jquery/navigation/hamburger-menu/ - nav bar
-
-https://mdbootstrap.com/docs/standard/navigation/footer/ - Footer bootstrap
-
-https://www.goodhousekeeping.com/food-recipes/healthy/g4060/healthy-smoothie-recipes/?slide=17 - Smoothie Images
-
-https://www.codeblocq.com/2016/05/Blur-Image-on-Hover-with-CSS/ - Image Blur
-
-https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button3 - Hover effect for buttons
-
-https://joyfoodsunshine.com/wp-content/uploads/2019/07/green-smoothie-recipe-featured.jpg - default recipe image
-
-Issues
-
-corrupted data base, had to go into heroku and delete database
-
-unable to migrate until (blank=True) for post class in models
-
-bug where every post was liked by every registered site user
-
-
