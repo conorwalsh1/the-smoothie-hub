@@ -42,7 +42,7 @@ body {
     color: black;
 }
 
-.nav-burger {
+.navbar-burger {
     margin: 15px;
 }
 
@@ -131,7 +131,6 @@ body {
     margin: 70px 25px 50px;
     font-weight: 600;
     text-align: center;
-
 }
 
 /* Contact */
@@ -320,14 +319,28 @@ body {
 
 /* Media Queries */
 
-@media only screen and (max-width: 995) {
+@media (max-width: 992px) {
 
     .nav-links {
         margin: 15px 10px 15px 20px;
+    }
+
+    .about-us-description {
+        font-size: 20px;
+        line-height: 55px;
+        margin: 50px 25px 50px;
+        font-weight: 400;
+    }
+
+    .about-us-signature {
+        font-size: 25px;
+        line-height: 55px;
+        margin: 0px 25px -15px;
+    }
 }
 
 
-@media only screen and (max-width: 410px) {
+@media (max-width: 410px) {
 
     .navbar-title {
         font-size: 35px;
