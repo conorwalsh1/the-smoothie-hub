@@ -23,6 +23,7 @@ def create_recipe_form(request):
         form = CreateRecipeForm(request.POST)
         if form.is_valid():
             form.instance.author = request.user
+            messages.success(request, 'Recipe added successfully.')
             form.save()
             return redirect('/view_your_recipes/')
     form = CreateRecipeForm()
@@ -56,4 +57,5 @@ def edit_recipe(request, recipe_id):
 def delete_recipe(request, recipe_id):
     set = get_object_or_404(CreateRecipe, id=recipe_id)
     set.delete()
+    messages.success(request, 'Recipe deleted successfully.')
     return redirect('/view_your_recipes/')
