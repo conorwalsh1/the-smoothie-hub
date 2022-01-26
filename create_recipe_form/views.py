@@ -40,6 +40,7 @@ def edit_recipe(request, recipe_id):
         form = CreateRecipeForm(request.POST, instance=set)
         if form.is_valid():
             form.save()
+            messages.success(request, 'Recipe edited successfully.')
             return redirect('/view_your_recipes/')
     form = CreateRecipeForm(instance=set)
     context = {

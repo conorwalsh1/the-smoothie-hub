@@ -316,9 +316,9 @@ This website was built using a Macbook Pro 13".
 13. [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 14. [PEP8](http://pep8online.com/)
 
-## Testing
+## Code Validation
 
-The W3C Markup Validator, W3C CSS Validator, JSHint and PEP8 were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator, W3C CSS Validator, and PEP8 were used to validate every page of the project to ensure there were no syntax errors in the project.
     <h2 align="center">HTML Validator Results</h2>
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) 
     ![HTML Validator Results](media/images/html-validator.png)
@@ -330,47 +330,34 @@ The W3C Markup Validator, W3C CSS Validator, JSHint and PEP8 were used to valida
     ![PEP8 Validator Results 1](media/images/pep8-1.png)
     ![PEP8 Validator Results 2](media/images/pep8-2.png)
 
-### Testing User Stories from User Experience (UX) Section
+## Testing
 
--   #### First Time Visitor Goals
-
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site..
-
-        1. Upon entering the site, users are automatically greeted with a clean unobstructed interface which contains the name of the site and a welcome message explaining the sites purpose.
-        2. The rules of the quiz are explained clearly.
-        3. The user is shown a large "Start Quiz" button which calls the function to start the quiz
-
-    2. As a First Time Visitor, I want to be able to easily be able to navigate through the quiz without any confusion.
-
-        1. The site has been designed to be fluid and never to entrap the user. Once the quiz starts, the user will have an option of four different buttons to select, all of which can be pressed for each question. The 'Next' button guides the user through the quiz until they have answered all questions
-        2. The user will be alerted with a closing message once all questions have been answered.
-
-    3. As a First Time Visitor, I want to have an experience that is meaningful and informative.
-
-        1. The quiz has been set up in a way that the questions are not difficult but not easy either. As a first time visitor, I want to feel stimulated enough that I would like to return again.
-        2. The encouraging language in the opening and closing messages is scripted in a way that aims to provoke a positive emotional reaction in the site user.
-
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to challenge the score I received on the previous occasion.
-
-        1. The tally for correct and incorrect score will always appear at the top of the screen. It gives the visitor a way of tracking their score so they have something to compare it against when they return.
-        2. The score shows both correct and incorrect so the visitor has two ways of challenging themselves.
-
-    2. As a Returning Visitor, I want to be able to complete the quiz without any distractions
-
-        1. The quiz is set up in a way that the visitors eyes are only drawn to the quiz area which is contained in a black box with brown border.
-        2. There is nothing included on the site that isn't necessary which promotes a concentrated learning environment.
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to improve my Irish language skills.
-
-        1. The site has a familiar layout which is truly unique. This allows the site visitor to focus purely on learning Irish through the quiz.
-
-    2. As a Frequent User, I want to check to see if there are any changes to either the questions in terms of topics or difficulties.
-
-        1. If any changes were to be implemented either through topics or question difficulties, the user would be notified in the welcome message so the landing page acts as a notice board for any changes on site.
+1. As a user, I want to easily determine what kind of website it is.
+    - Result: TEST PASSED
+2. As a user, I want to see what recipes are displayed on the 'Featured Recipes' page.
+    - Result: TEST PASSED
+3. As a user, I want to see how many likes a featured recipe has.
+    - Result: TEST PASSED
+4. As a user, I want to see how many comments a featured recipe has.
+    - Result: TEST PASSED
+5. As a user, I want to sign up for an account.
+    - Result: TEST PASSED
+6. As a user, I want to log into my account.
+    - Result: TEST PASSED
+7. As a user, I want to log out of my account.
+    - Result: TEST PASSED
+8. As a user, I want to see the site owners contact information.
+    - Result: TEST PASSED
+9. As a user, I want to submit a new recipe.
+    - Result: TEST PASSED
+10. As a user, I want to edit a previously added recipe.
+    - Result: TEST PASSED
+11. As a user, I want to delete a previously added recipe.
+    - Result: TEST PASSED
+12. As a user, I want to comment under a featured recipe.
+    - Result: TEST PASSED
+13. As a user, I want to like a featured recipe.
+    - Result: TEST PASSED
 
 ### Further Testing
 
