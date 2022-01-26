@@ -54,6 +54,8 @@ This website was built using a Macbook Pro 13".
 
         - I want to moderate the formatting of the site to ensure consistency of output.
 
+    I planned my project [here](https://github.com/conorwalsh1/the-smoothie-hub/projects/1).
+
 
 -   ### Design
     -   #### Colour Scheme
@@ -130,7 +132,75 @@ This website was built using a Macbook Pro 13".
 
 ## Navbar
 
-- The navbar
+<br>
+
+![Nav Logged Out](media/images/nav-logged-out.png)
+
+<br>
+
+- The navbar is available at the top of the page for the site user at all times. It contains a brand title written in 'Shadows Into Light' font. It also has links to each relevant page on the site. When the user is logged out, they will see a 'Login' link. Depending on whether they are a normal site user or a site manager, new options will appear to them once they have logged in
+
+<br>
+
+![Nav Logged In](media/images/nav-logged-in.png)
+
+<br>
+
+- When a site user logs in, a new link will appear which will allow them to submit a recipe to be considered by the site owner. They will also be able to see a welcome message with their name also being displayed.
+
+<br>
+
+![Nav Shrink](media/images/nav-shrink.png)
+
+<br>
+
+- On smaller screen sizes, the navbar will change from being displayed horizontally to being displayed vertically. This makes the site more user friendly. The user can simply click on the burger icon and the navbar will be displayed. We can also see in the picture above that a manager has logged in. As the manager is a superuser, a new link 'Admin' has appeared. We will explore this further on in 'Features'.
+
+<br>
+
+## Featured Recipes
+
+<br>
+
+![Nav Logged Out](media/images/featured-recipes-readme.png)
+
+<br>
+
+- The 'Featured Recipes' page is where the site owner can display the best recipes of his/her choosing. Once users submit a recipe via the "Submit A New Recipe" form, the details of their submission will appear in the Django admin panel. Recipes displayed in this section contain a title, an author, the date and time of upload, ingredients, method, with comments and likes underneath posts. The ability to like and comment is only available to authorised site users. Comments will be sent to the Django admin panel where the site owner will have to validate that the comments are appropriate before they appear to other users.
+
+<br>
+
+## About
+
+<br>
+
+![About](media/images/about-readme.png)
+
+<br>
+
+- The 'About' section is a designated area where site users can figure out what 'The Smoothie Hub' is all about. It explains why the site was set up, how a site user can get involved with their own account, how they can get in contact with either the recipe author or even the site owner. There are relevant links in the paragraph element to steer users in the right direction.
+
+<br>
+
+## Contact Us
+
+<br>
+
+![Contact Us](media/images/contact-readme.png)
+
+<br>
+
+- The 'Contact Us' page shows site users how they can get in contact with the site owners directly. It shows them in what town the site was founded. It also shows them the relevant phone number which they can call and it also has an email address linked. By clicking on the email hyperlink, a new tab will open where the user will find that the 'To:' field has been prepopulated with email belonging to the 'The Smoothie Hub'
+
+<br>
+
+
+
+
+
+
+
+
 
 -   Responsive on all device sizes. On wider screens the questions and buttons stretch out to make use of space but on smaller screens the media queries ensure the quiz is adaptive and clean
 
